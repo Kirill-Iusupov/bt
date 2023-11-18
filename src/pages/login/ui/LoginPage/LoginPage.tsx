@@ -7,7 +7,7 @@ const LoginPage = () => {
   const handleLogin= (email, password) =>{
     const auth = getAuth()
     signInWithEmailAndPassword(auth, email, password)
-      .then(console.log)
+      .then(console.log) 
       .catch(console.error)
   }
   
